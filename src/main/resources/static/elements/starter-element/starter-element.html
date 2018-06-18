@@ -1,0 +1,40 @@
+<link rel="import" href="/bower_components/polymer/polymer-element.html">
+
+<dom-module id="starter-element">
+
+  <template>
+
+    <style>
+  
+    </style>
+        <h1> Hello World !!! </h1>
+
+  </template>
+
+  <script>
+    class StarterElement extends Polymer.Element {
+      static get is() { 
+        return 'starter-element';
+      }
+      static get properties() {
+        return {
+            user: String,
+            isHappy: Boolean,
+            count: {
+              type: Number,
+              readOnly: true,
+              notify: true
+            }
+        }
+      }
+      constructor() {
+        super();
+      }
+      
+    }
+
+    customElements.define(StarterElement.is, StarterElement);
+  </script>
+
+</dom-module>
+

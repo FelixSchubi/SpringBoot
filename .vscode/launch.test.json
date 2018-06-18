@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "explorer",
+                "projectName": "explorer",
+                "workingDirectory": "/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/WithPolymer/SpringBootAndPolymer-Simple",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "explorer",
+                "projectName": "explorer",
+                "workingDirectory": "/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/WithPolymer/SpringBootAndPolymer-Simple",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

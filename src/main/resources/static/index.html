@@ -1,0 +1,86 @@
+<!doctype html>
+<link rel="import" href="bower_components/vaadin-date-picker/vaadin-date-picker.html">
+<link rel="import" href="bower_components/vaadin-dropdown-menu/vaadin-dropdown-menu.html">
+
+
+
+<html>
+
+<h1>Das Hier ist ein Test:</h1>
+<b>vaadin-date-picker:</b>
+<br>
+
+<vaadin-date-picker label="Das ist das Label" placeholder="Placeholder">
+  </vaadin-date-picker>
+<br> <br>
+  <vaadin-button id="RunConsole" >RunConsole</vaadin-button>
+  <vaadin-button id="SysAlert" >SysAlert</vaadin-button>
+
+  <br> <br>
+
+  <vaadin-dropdown-menu label="Ein Label" placeholder="Platzhalter">
+      <template>
+        <vaadin-list-box>
+          <vaadin-item value="1">1</vaadin-item>
+          <vaadin-item value="2">2</vaadin-item>
+          <vaadin-item value="3">3</vaadin-item>
+          <vaadin-item value="4">4</vaadin-item>
+        </vaadin-list-box>
+      </template>
+    </vaadin-dropdown-menu>
+    <vaadin-dropdown-menu label="Nicht_Verfuegbar" disabled>
+      <template>
+        <vaadin-list-box>
+          <vaadin-item>1</vaadin-item>
+          <vaadin-item>2</vaadin-item>
+        </vaadin-list-box>
+      </template>
+    </vaadin-dropdown-menu>
+    <vaadin-dropdown-menu label="Nur_Lesen" readonly value="1">
+      <template>
+        <vaadin-list-box>
+          <vaadin-item>1</vaadin-item>
+          <vaadin-item>2</vaadin-item>
+        </vaadin-list-box>
+      </template>
+    </vaadin-dropdown-menu>
+    <vaadin-dropdown-menu label="Required" required>
+      <template>
+        <vaadin-list-box>
+          <vaadin-item value disabled>Select an option</vaadin-item>
+          <hr>
+          <vaadin-item value="1">1</vaadin-item>
+          <vaadin-item value="2">2</vaadin-item>
+          <vaadin-item value="3">3</vaadin-item>
+          <vaadin-item value="4">4</vaadin-item>
+        </vaadin-list-box>
+      </template>
+    </vaadin-dropdown-menu>
+
+
+    
+
+    <br> <br>
+       
+</html>
+
+<script>
+  document.getElementById("RunConsole").addEventListener("click",rConsole);
+
+  function rConsole(){
+  i = 0;
+  do {
+  console.log("Das ist ein Test!  " + i);
+  i++;
+  }
+  while (i < 10 );
+}
+
+document.getElementById("SysAlert").addEventListener("click", SyAlert);
+
+function SyAlert(){
+  alert("Hier ist ein Alert()    " +   ":)");
+}
+
+
+</script>

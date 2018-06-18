@@ -1,0 +1,1 @@
+This is an example of getting started with Polymer inside a Spring Boot Web Application
