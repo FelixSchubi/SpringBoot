@@ -1,1 +1,5 @@
-This is an example of getting started with Polymer inside a Spring Boot Web Application
+# SpringBoot
+
+- Maven muss nich nach jeder veränderung des Codes neugestartet werden!
+- Die Bower Components müssen im Static Ordner untergebracht werden.
+- Einfache Skriptbefehle funktionieren in der HTML Datei
