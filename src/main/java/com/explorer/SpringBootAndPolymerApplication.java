@@ -6,7 +6,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootAndPolymerApplication {
 
+
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootAndPolymerApplication.class, args);
+	
+	SpringApplication appFelix = new SpringApplication(SpringBootAndPolymerApplication.class);
+
+	System.out.println("Das ist ein Test!");
+	
+   	appFelix.run(args);
+
 	}
+
 }
+
+
