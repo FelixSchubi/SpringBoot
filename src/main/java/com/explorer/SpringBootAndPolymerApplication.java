@@ -15,8 +15,11 @@ public class SpringBootAndPolymerApplication {
 	
    	appFelix.run(args);
 
+	// System.out.println("Das ist der Test für nach dem Aufruf");
+
 	}
 
 }
+
 
 
