@@ -14,3 +14,5 @@
 
 - Controller werden mit in die "main.java" Datei geschrieben:
     -> https://spring.io/guides/gs/serving-web-content/
+
+- thymeleaf genauer anschauen_> vorallem im Zusammenhang mit den Controllern && Polymer / Webcomponents
