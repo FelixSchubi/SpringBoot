@@ -16,3 +16,4 @@
     -> https://spring.io/guides/gs/serving-web-content/
 
 - thymeleaf genauer anschauen_> vorallem im Zusammenhang mit den Controllern && Polymer / Webcomponents
+- test commit :) 
