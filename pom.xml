@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.explorer</groupId>
-	<artifactId>explorer</artifactId>
+	<groupId>com.LHM_A_61</groupId>
+	<artifactId>LHM_A_61</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Explorer</name>
-	<description>Demo project for testing DynamoDB</description>
+	<name>LHM_A_61</name>
+	<description>Demo_Polymer_mit_Springboot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
