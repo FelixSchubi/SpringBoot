@@ -11,3 +11,6 @@
 - Funktioniert nicht: http://www.baeldung.com/spring-boot-custom-error-page
 - Custom Error Page mit Button zur Homepage:
     -> resources/public/error/404.html
+
+- Controller werden mit in die "main.java" Datei geschrieben:
+    -> https://spring.io/guides/gs/serving-web-content/
