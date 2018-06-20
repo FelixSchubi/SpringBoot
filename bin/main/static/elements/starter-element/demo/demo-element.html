@@ -1,0 +1,26 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="../starter-element.html">
+
+
+<dom-module id="demo-element">
+  <template>
+    <style>
+      :host {
+        font-family: sans-serif;
+      }
+    </style>
+  
+    <h3>Starter Element will be displayed below : </h3>
+    <br>
+
+    <starter-element></starter-element>
+
+  </template>
+
+  <script>
+    class DemoElement extends Polymer.Element {
+      static get is() { return 'demo-element' }     
+    }
+    customElements.define(DemoElement.is, DemoElement);
+    </script>
+</dom-module>

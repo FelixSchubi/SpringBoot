@@ -50,6 +50,7 @@
     "vaadin-dropdown-menu": "vaadin/vaadin-dropdown-menu#^1.0.0",
     "vaadin-item": "vaadin/vaadin-item#^2.0.0",
     "vaadin-list-box": "vaadin/vaadin-list-box#^1.0.2",
-    "vaadin-button": "vaadin/vaadin-button#^2.0.1"
+    "vaadin-button": "vaadin/vaadin-button#^2.0.1",
+    "vaadin-upload": "vaadin/vaadin-upload#^4.1.0"
   }
 }
