@@ -16,4 +16,9 @@
     -> https://spring.io/guides/gs/serving-web-content/
 
 - thymeleaf genauer anschauen_> vorallem im Zusammenhang mit den Controllern && Polymer / Webcomponents
-- test commit :) 
+
+
+## Guide to installing 3rd party JARs
+
+
+- https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
