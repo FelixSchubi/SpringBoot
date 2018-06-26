@@ -21,4 +21,4 @@
 ## Guide to installing 3rd party JARs
 
 
-- https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
+- https://www.mkyong.com/maven/how-to-include-library-manully-into-maven-local-repository/
