@@ -16,3 +16,9 @@
     -> https://spring.io/guides/gs/serving-web-content/
 
 - thymeleaf genauer anschauen_> vorallem im Zusammenhang mit den Controllern && Polymer / Webcomponents
+
+
+## Guide to installing 3rd party JARs
+
+
+- https://www.mkyong.com/maven/how-to-include-library-manully-into-maven-local-repository/
